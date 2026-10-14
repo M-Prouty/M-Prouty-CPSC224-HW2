@@ -31,7 +31,7 @@ public class Farkle {
                 System.out.println("Would you like to roll 6 new dice or bank your points? (R/B)");
                 answer = input.nextLine().toUpperCase();
                 if(answer.equals("R")) {
-                    myHand = new Hand(6, 6); 
+                    myHand = new Hand(6, 6);  
                 }
             }
             else {

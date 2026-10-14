@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Hand {
     private List<Dice> listOfDice = new ArrayList<>();
-    private List<Integer> listOfSavedDice = new ArrayList<>();
+    private final List<Integer> listOfSavedDice = new ArrayList<>();
     private int numDiceNotSaved = 6;
 
     public Hand(int numDice, int numSides) {
